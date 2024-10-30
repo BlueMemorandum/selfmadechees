@@ -1,0 +1,244 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+   background: linear-gradient(to right,blue,red);
+  color: white;
+  height: 100vh
+}
+
+/* Header */
+header {
+  background-color: #0044cc;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#home {
+  text-align: center;
+  padding: 40px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.robot-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px 0;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e05b00;
+}
+
+/* Special Offer Section */
+#special-offer {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.offer-image {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Robot Information Section */
+#robot-info {
+  padding: 40px;
+  background-color: blue;
+  text-align: center;
+}
+
+/* Brokers Section */
+#brokers {
+  text-align: center;
+  padding: 40px;
+}
+
+.broker-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.broker {
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.broker:hover {
+  background-color: #002f99;
+}
+
+/* Stats Section */
+#stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.counter {
+  font-size: 2em;
+  color: #0044cc;
+}
+
+/* License Key Information */
+#license-info {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+ /* Pricing section */
+        .pricing {
+            margin-top: 40px;
+            background-color: white(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .pricing h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .pricing-plan {
+			background: linear-gradient(to right,blue,red);
+            border-radius: 10px;
+            padding: 20px;
+            width: 290px;
+            text-align: center;
+        }
+
+        .pricing-plan img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .pricing-plan h4 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+			color: white;
+        }
+
+        .pricing-plan p {
+            font-size: 1.2em;
+            margin: 10px 0;
+			color: white;
+        }
+
+        .subscribe-btn {
+            background-color: blue;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            margin-top: 10px;
+            display: inline-block;
+        }
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: blue;
+    }
+
+    .faq-section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: blue;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: white;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .question {
+      font-weight: bold;
+      cursor: pointer;
+      color: white;
+      margin: 0;
+    }
+
+    .answer {
+      display: none;
+      padding: 10px 0;
+      color: white;
+    }
+	</style>
+/* Footer */
+footer {
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
